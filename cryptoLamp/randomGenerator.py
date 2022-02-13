@@ -4,56 +4,7 @@ from hashlib import sha1
 #https://gist.github.com/UnquietCode/99b69b99e00ce52e34c1
 #https://jeremykun.com/2016/07/11/the-blum-blum-shub-pseudorandom-generator/
 #https://www.computerworld.com/article/3173616/the-sha1-hash-function-is-now-completely-unsafe.html
-'''
-var = None
-with open("opencv_frame_4.png", "rb") as image:
-    f = image.read()
-    b = bytearray(f)
-    var = sum(b)
-    print(sum(b))
 
-#hash the image produced by physically random lavalamp
-hashedImage = sha1(open("opencv_frame_2.png", 'rb').read()).hexdigest()
-print("hashedIMAGE:")
-print(hashedImage)
-print("bruh")
-print(int(hashedImage, 16))
-
-hashedImage1 = sha1(open("opencv_frame_1.png", 'rb').read()).hexdigest()
-print("hashedIMAGE:")
-print(hashedImage1)
-print(len(hashedImage1))
-print("bruh")
-print(int(hashedImage1, 16))
-
-
-
-
-
-
-with open("opencv_frame_1.png", "rb") as image:
-    f = image.read()
-    b = bytearray(f)
-    var1 = sum(b)
-    print(sum(b))
-
-rng = np.random.default_rng(int(hashedImage, 16))
-rints = rng.integers(low=0, high=10, size=1)
-rints1 = rng.integers(low=0, high=10, size=1)
-rints2 = rng.integers(low=0, high=10, size=1)
-print(rints)
-print(rints1)
-print(rints2)
-rng = np.random.default_rng(int(hashedImage1, 16))
-rints = rng.integers(low=0, high=10, size=50)
-rints1 = rng.integers(low=0, high=10, size=1)
-rints2 = rng.integers(low=0, high=10, size=1)
-print(rints)
-print(rints1)
-print(rints2)
-
-
-'''
 filename = "seed_val.txt"
 
 
