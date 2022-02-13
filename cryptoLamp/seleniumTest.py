@@ -48,7 +48,7 @@ class lavaLampTrader():
         password = self.driver.find_element_by_name('password')
         loginBox = self.driver.find_element_by_css_selector(".btn")
         emailAddress.send_keys("srilikestoscience@gmail.com")
-        password.send_keys("H8keyx87@123")
+        password.send_keys("")
         loginBox.click()
 
         return self.driver
