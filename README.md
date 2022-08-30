@@ -2,7 +2,7 @@
 
 <div align="center">
   <kbd>
-    <img src="https://i.imgur.com/zdY3ZC9.png" />
+    <img src="./opencv_frame_0.png" />
   </kbd>
 </div>
 
