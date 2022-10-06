@@ -1,3 +1,5 @@
+#A test application to apply the random generator and test it to see if crypto trading actually takes skill or is complete luck.
+
 import selenium
 from selenium import webdriver
 import time
