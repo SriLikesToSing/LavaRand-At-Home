@@ -27,16 +27,6 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 
-'''
-- get picture and extract the binary of the picture: a.k.a conver the picture into bits (I mostly want it automated)
-in a separate program:
-    - use bits and insert it into a psuedorandom generator
-    - genrate randomness!
-
-
-
-
-'''
 
 
 
