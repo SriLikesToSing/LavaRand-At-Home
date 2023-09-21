@@ -26,8 +26,9 @@ def generateNumber(Low, High, Size):
     #hash the image produced by physically random lavalamp
     hashedImage = sha1(open(lavaImage, 'rb').read()).hexdigest()
     seed = np.random.default_rng(int(hashedImage, 16))
-    rng = np.random.default_rng(int(hashedImage, 16)+seed.integers(low=1, high=500000, size=1))
+    rng = np.random.default_rng(int(hashedImage, 16)+load_seed(filename))
     rint = rng.integers(low=Low, high=High, size=Size)
+    save_seed(load_seed(filename)+rint[0], filename)
 
     return list(rint)
 
