@@ -13,7 +13,7 @@ Lava Rand is a lava lamp that produces random numbers through stochastic physica
 
 ```
 $ download my software and run pip install -r requirements.txt to install dependencies.
-$ run python(3) randomGenerator.py. 
+$ run python randomGenerator.py. 
 $ That's it! If you want to produce your own randomly generated seed get your own lavalamp and run cameraStream.py.
 
 ```
