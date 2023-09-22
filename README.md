@@ -1,4 +1,4 @@
-# LavaRand at home
+# LavaRand at Home
 
 <div align="center">
   <kbd>
