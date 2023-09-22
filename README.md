@@ -2,7 +2,7 @@
 
 <div align="center">
   <kbd>
-    <img src="https://github.com/SriLikesToSing/LavaRand/blob/main/cryptoLamp/opencv_frame_2.png" />
+    <img src="https://github.com/SriLikesToSing/LavaRand/blob/main/cryptoLamp/lavaRand.gif" />
   </kbd>
 </div>
 
