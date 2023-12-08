@@ -2,7 +2,7 @@ import cv2
 import random
 import numpy as np
 
-print('hi')
+
 cap = cv2.VideoCapture(0)
 
 if not cap.isOpened():
