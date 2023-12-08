@@ -45,7 +45,6 @@ elif lavaImage == 'done':
 else:
     raise Exception("Input valid image")
 
-#print(load_seed())
 
 print("type low, high, and number of values to be generated separated by comma. ex: 2,50,5")
 print("if you want to input a new lava lamp image type 'new image' \n")
