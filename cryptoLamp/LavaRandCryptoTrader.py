@@ -14,20 +14,6 @@ print(randomGenerator.generateNumber(0, 10, 100, 1))
 print("successful")
 
 
-'''
-current problems:
-    - ads
-        - add an add blocker **CHECK
-    - add input**CHECK
-
-    TODO:
-        - add arduino interfacing
-            - pyserial?
-
-        - find out what way you will be harmed
-            - thing at the back of my head that punches the side of my face.
-'''
-
 class lavaLampTrader():
 
     def __init__(self):
